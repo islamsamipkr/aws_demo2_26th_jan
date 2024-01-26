@@ -26,3 +26,9 @@ provider "aws" {
 Note-1:  AWS Credentials Profile (profile = "default") configured on your local desktop terminal  
 $HOME/.aws/credentials
 */
+variable "AWS_ACCESS_KEY"{
+  
+}
+variable "AWS_SECRET_ACCESS_KEY"{
+  
+}
