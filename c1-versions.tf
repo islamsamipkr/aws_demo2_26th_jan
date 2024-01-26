@@ -6,11 +6,13 @@ terraform {
       source  = "hashicorp/aws"
       version = ">= 5.0"
     }
-    null = {
-      source = "hashicorp/null"
-      version = "~> 3.0"
-    }        
   }
+    cloud {
+        organization = "sami123123123"
+      workspaces {
+        name = "aws_demo2_26th_jan"
+      }
+    }
 }
 
 # Provider Block
